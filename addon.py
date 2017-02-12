@@ -16,7 +16,7 @@ addon_handle = int(sys.argv[1])
 
 xmbcplugin.setContent(addon_handle, 'tv')
 
-url = 'http://www.trt.net.tr/e5daf217-13db-044c-9caf-3692b33e4336'
+url = '64c995f9-894d-4358-93dc-f7f45b757798.mp4'
 li = xbmcgui.ListItem('TRT 1 HD', 'DefaultVidao.png')
 xmbcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 xmbcplugin.endOfDirectory(addon_handle)
