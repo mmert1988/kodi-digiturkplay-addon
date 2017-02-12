@@ -14,9 +14,9 @@ addonname   = addon.getAddonInfo('name')
 
 addon_handle = int(sys.argv[1])
 
-xmbcplugin.setContent(addon_handle, 'tv')
+xmbcplugin.setContent(addon_handle, 'movies')
 
-url = '64c995f9-894d-4358-93dc-f7f45b757798.mp4'
+url = 'http://localhost/64c995f9-894d-4358-93dc-f7f45b757798.mp4'
 li = xbmcgui.ListItem('TRT 1 HD', 'DefaultVidao.png')
 xmbcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 xmbcplugin.endOfDirectory(addon_handle)
